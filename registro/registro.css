@@ -1,0 +1,180 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFCFC;
+    width: 100%;
+}
+.logo{
+    margin-left: 50px;
+    width: 308px;
+    height: 90.18px;
+    
+  }
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.cuerpo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+
+}
+.acuerdo{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.reg__button{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+color: white;
+}
+.reg__button a{
+    text-decoration: none;
+
+}
+
+.btn__reg{
+background-color:#166306;
+color: white;
+padding: 10px 10px;
+font-size: 20px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 20px;
+border:1px solid #000;
+box-sizing: border-box;
+
+}
+.conectar{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.btn__inicio{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 24px;
+    background-color: #166306;
+    color:white;
+    border-radius: 20px;
+    border:1px solid #000;
+    box-sizing: border-box;
+    
+}
+
+.cuenta-exitosa{
+    width: 100%;
+    height: 75vh;
+    background-image: url(/img/carruselfrutas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  #titulo-compra{
+    text-align: center;
+    color:#166306;
+
+  }
+ #exitosa{
+    background-color: #D9D9D9;
+    border-radius:10%;
+
+  }
+  #hombreanana{
+    border-radius: 20px;
+
+
+  }
+
+  #btn-continuar{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 24px;
+    background-color: #166306;
+    color:white;
+    border-radius: 20px;
+  }
+  #btn-continuar a{
+    text-decoration: none;
+  }
+
+  .social-map {
+    background-color: #e9ece9;
+    padding: 2px 0px;
+    width: 100%;
+}
+
+.social-icons{
+        margin: 0.2em;
+        align-items: center;
+    }
+  
+
+.social-icons {
+    float: left;
+    padding: 10px;
+    margin-left: 67px;
+
+  }
+  
+.map {
+    float: right;
+    padding: 10px;
+    margin-right: 65.13px;
+
+  }
+  .mapouter {
+    position: relative;
+    text-align: right;
+    width: 200px;
+    height: 100px;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 200px;
+    height: 100px;
+  }
+
+  .gmap_iframe {
+    width: 200px !important;
+    height: 100px !important;
+    border-radius: 20px;
+  }
+  
+  .contacto{
+    display: flex;
+    padding: 50px;
+    margin: 28px;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+footer{
+    width: 100%;
+    
+  }
+   footer .social-map{
+    background-color: #166306;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    
+   }

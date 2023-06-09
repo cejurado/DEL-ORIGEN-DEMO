@@ -1,0 +1,73 @@
+.material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: "liga";
+}
+body{
+
+    font-family: 'Inter', sans-serif;
+}
+.search-container {
+    border: solid 2px #166306;
+    border-radius:50px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    padding: 5px 10px;
+    width:700px;
+    margin: 10px auto;
+}
+.search-container:focus-within {
+    border: solid 5px #166306;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.search-container input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+}
+.search-container .actions {
+    display: flex;
+    gap:15px;
+}
+.search-container .actions button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #166306;
+}
+.search-container .actions button:hover {
+    color: #166306;
+}
+
+.search{
+    border-color: #e9ece9;
+    border-radius: 50%;
+    border-style: hidden;
+    margin-left: 15px;
+}
+
+
+

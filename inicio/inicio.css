@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+   
+} 
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFCFC;
+    width: 100%;
+}
+.logo{
+    margin-left: 50px;
+    width: 308px;
+    height: 90.18px;
+    
+  }
+.title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.foot{
+
+    background-color: red;
+    height: 140%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.form__body{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.text__footer{
+   display: flex;
+
+}
+.volver{
+    text-align: center;
+}
+
+.conexion{
+    text-align: center;
+}
+.pregunta{
+    text-align: center;
+}
+.button__footer{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.button1{
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+border:1px solid #000;
+box-sizing: border-box;
+background-color:#166306;
+color: white;
+
+}
+.button1 a{
+    text-decoration: none;
+}
+
+.text__footer{
+display: flex;
+width: 80%;
+justify-content: space-around;
+}
+
+.sizef{
+
+display: flex;
+row-gap: 20px;
+flex-direction: column;
+padding: 20px;
+align-items:center;
+margin-bottom: 50px;
+
+}
+

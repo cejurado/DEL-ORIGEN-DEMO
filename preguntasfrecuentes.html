@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.css" rel="stylesheet" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- Material Icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <title>Del Origen</title>
+
+</head>
+<body>
+    <div class="cabecera">
+        <nav id="nav1" class="navbar navbar-expand-lg">
+            <img src="./img/logopc.png" alt="logo" class="logo" />
+            <form class="form-inline ml-auto search-container actions ">
+                <input id="barraBuscar" class="form-control mr-sm-2" type="search" placeholder="Buscar..."
+                    aria-label="Buscar">
+                <button class="search"><span class="material-icons"> search </span></button>
+            </form>
+
+            <button class="person"><a href="registro/registro.html" target="_blank"><i
+                        class="fa-regular fa-user fa-lg "></i></a></button>
+
+            <span id="cart"></span>
+
+            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="secondary" class="bi bi-cart"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+                <div id="cart"></div>
+        </nav>
+
+
+        <section id="preguntas" class="bk-color-light ">
+            <div class="container">
+                <br><br><br>
+                <h2 id="h2secciones" class="txt-center pb-3"> Preguntas Frecuentes </h2>
+                <div class="flex-fixed">
+                    <div class="flex-box">
+                        <img src="./img/shopping-cart.png" alt="" width="50px">
+                        <h3 id="h3secciones" class="txt-large txt-center"> ¿Cómo comprar en línea? </h3>
+                        <p>Es muy fácil, solo tienes que elegir el producto que estás buscando. Lo encontrarás dentro de
+                            “Productos”, “Productos Destacados” o por el buscador. Luego agrégalo a tu carrito y listo!
+                            Procede al pago. </p>
+                    </div>
+                    <div class="flex-box">
+                        <img class="pago" src="./img/pago.png" alt="" width="50px">
+                        <h3 id="h3secciones" class="txt-large txt-center"> Opciones de Pago </h3>
+                        <p>Tendrás disponible los siguientes medios de pagos: efectivo, transferencia, tarjeta de débito
+                            o mercado pago. </p>
+                    </div>
+                    <div class="flex-box">
+                        <img class="domicilio" src="./img/envio.png" alt="" width="50px">
+                        <h3 id="h3secciones" class="txt-large txt-center"> Entrega a domicilio </h3>
+                        <p>Tendrás la opción de elegir entre “Retiro en Tienda” (en Nicaragua 4643) o “Envío a
+                            Domicilio”, con un costo adicional (te solicitaremos tu código postal para realizar el
+                            cálculo).</p>
+                    </div>
+
+                </div>
+                <a href="./contacto.html" class=" btn btn-success btn-contactanos">Contáctanos</a>
+                <br>
+                <a class="text-black-100" href="./index.html">Volver al inicio</a>
+            </div>
+            
+        </section>
+
+
+        <footer>
+            <section class="social-map">
+                <div class="row">
+                    <div class="col-sm-10 col-md-4">
+                        <section class="social-icons">
+
+                            <h4 class="text-white">Nuestras redes sociales</h4>
+                            <!-- Iconos de redes sociales -->
+                            <!-- Facebook -->
+                            <a class="btn text-white "
+                                style="background-color: #3b5998; border-radius: 50%; border-color: white; " href="#!"
+                                role="button"><i class="fab fa-facebook-f"></i></a>
+
+                            <!-- Instagram -->
+                            <a class="btn text-white "
+                                style="background-color: #ac2bac; border-radius: 50%;  border-color: white;" href="#!"
+                                role="button"><i class="fab fa-instagram"></i></a>
+
+                            <!-- Whatsapp -->
+                            <a class="btn text-white "
+                                style="background-color: #07a53c;border-radius: 50%; border-color: white;" href="#!"
+                                role="button"><i class="fab fa-whatsapp"></i></a>
+
+                        </section>
+                    </div>
+                    <div class="col-sm-10 col-md-4"></div>
+                    <div class="col-sm-10 col-md-4">
+                        <section class="map">
+                            <!-- Section: Mapa interactivo -->
+                            <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                src="https://maps.google.com/maps?width=200&amp;height=100&amp;hl=en&amp;q=zoologico palermo&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            <div>
+
+                            </div>
+
+                    </div>
+
+            </section>
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Todos los derechos reservados:
+                <a class="text-black-50" href="https://delorigen.com/">DelOrigen.com</a>
+            </div>
+
+        </footer>
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.js"></script>
+        <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+            </script>
+</body>
+
+</html>
